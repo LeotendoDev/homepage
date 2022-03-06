@@ -1,3 +1,7 @@
-h3 {
-    font-family: "monospace";
-}
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+ h1, h2 {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+ }
+ 

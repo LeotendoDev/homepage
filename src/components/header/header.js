@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './typewriter.css'
 import './header.css'
+import './animated_text.scss'
 
 export default class Header extends Component {
     render() {
@@ -26,7 +27,21 @@ export default class Header extends Component {
                             <div class="typewriter">
                                 <h1>Leonard Steinhoff</h1>
                             </div>
-                            <h3>I'm a 12 year old student from Germany, </h3>
+                            <br />
+                            <div class="content">
+                                <div class="content__container">
+                                    <p class="content__container__text">
+                                        I'm a 
+                                    </p>
+                                    <ul class="content__container__list">
+                                        <li class="content__container__list__item">Frontend Developer</li>
+                                        <li class="content__container__list__item">Backend Developer</li>
+                                        <li class="content__container__list__item">App Developer</li>
+                                        <li class="content__container__list__item">Pentester</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <br />
                             <hr/>
                             <ul className="social">
                                 <li><a href="#"><i className="fa fa-facebook"/></a></li>

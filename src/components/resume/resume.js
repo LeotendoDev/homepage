@@ -7,6 +7,31 @@ export default class Resume extends Component {
                 {/* Resume Section */}
                 <section id="resume">
                     {/* Education */}
+                    {/* Skills*/}
+                    <div className="row skill">
+                        <div className="three columns header-col">
+                            <h1><span>Skills</span></h1>
+                        </div>
+                        <div className="nine columns main-col">
+                            <p> My main preferences are in web development.
+                            </p>
+                            <div className="bars">
+                                <ul className="skills">
+                                    <li><span className="bar-expand photoshop"/><em>JavaScript</em></li>
+                                    <li><span className="bar-expand illustrator"/><em>React JS</em></li>
+                                    <li><span className="bar-expand wordpress"/><em>Express JS</em></li>
+                                    <li><span className="bar-expand css"/><em>Node JS</em></li>
+                                    <li><span className="bar-expand html5"/><em>Firebase</em></li>
+                                    <li><span className="bar-expand jquery"/><em>MongoDB</em></li>
+                                    <li><span className="bar-expand css"/><em>Python</em></li>
+                                </ul>
+                            </div>
+                            {/* end skill-bars */}
+                        </div>
+                        {/* main-col end */}
+                    </div>
+                    {/* End skills */}
+ 
                     <div className="row education">
                         <div className="three columns header-col">
                             <h1><span>Education</span></h1>
@@ -98,32 +123,10 @@ export default class Resume extends Component {
                         {/* main-col end */}
                     </div>
                     {/* End Work */}
-                    {/* Skills*/}
-                    <div className="row skill">
-                        <div className="three columns header-col">
-                            <h1><span>Skills</span></h1>
-                        </div>
-                        <div className="nine columns main-col">
-                            <p> My main preferences are in web development.
-                            </p>
-                            <div className="bars">
-                                <ul className="skills">
-                                    <li><span className="bar-expand photoshop"/><em>JavaScript</em></li>
-                                    <li><span className="bar-expand illustrator"/><em>React JS</em></li>
-                                    <li><span className="bar-expand wordpress"/><em>Express JS</em></li>
-                                    <li><span className="bar-expand css"/><em>Node JS</em></li>
-                                    <li><span className="bar-expand html5"/><em>Firebase</em></li>
-                                    <li><span className="bar-expand jquery"/><em>MongoDB</em></li>
-                                </ul>
-                            </div>
-                            {/* end skill-bars */}
-                        </div>
-                        {/* main-col end */}
-                    </div>
-                    {/* End skills */}
                 </section>
                 {/* Resume Section End*/}
             </React.Fragment>
         );
     }
 }
+
